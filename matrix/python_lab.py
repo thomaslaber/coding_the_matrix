@@ -118,7 +118,8 @@ example_L = [0,0,1]
 
 ## 17: (Task 0.5.18) Odd numbers
 # Replace {...} with a one-line set comprehension over a range of the form range(n)
-odd_num_list_range = {...}
+odd_num_list_range = { x for x in range(1,100,2) }
+# [ [x] for x in list(range(100)) if x%2 == 1]
 
 
 
@@ -126,8 +127,9 @@ odd_num_list_range = {...}
 # In the line below, replace ... with an expression that does not include a comprehension.
 # Instead, it should use zip and range.
 # Note: zip() does not return a list. It returns an 'iterator of tuples'
-range_and_zip = ...
-
+L = ['A','B','C','D','E']
+K = range(5)
+range_and_zip = list(zip(K,L))
 
 
 ## 19: (Task 0.5.20) Using zip to find elementwise sums
@@ -136,7 +138,7 @@ B = [1, 15, 20]
 # Replace [...] with a one-line comprehension that uses zip together with the variables A and B.
 # The comprehension should evaluate to a list whose ith element is the ith element of
 # A plus the ith element of B.
-list_sum_zip = [...]
+list_sum_zip = [x + y for (x,y) in zip(A,B)]
 
 
 
@@ -145,7 +147,7 @@ dlist = [{'James':'Sean', 'director':'Terence'}, {'James':'Roger', 'director':'L
 k = 'James'
 # Replace [...] with a one-line comprehension that uses dlist and k
 # and that evaluates to ['Sean','Roger','Pierce']
-value_list = [...]
+value_list = [x[k] for x in dlist]
 
 
 
