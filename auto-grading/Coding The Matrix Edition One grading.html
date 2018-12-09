@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Coding The Matrix Edition One grading </title>
+  </head>
+  <body>
+    <h1>Auto-grading for <i>Coding the Matrix</i>, Edition One (beta
+      version)<br>
+    </h1>
+    <br>
+    Make sure you have Python 3.x on your computer.&nbsp; In the
+    following, I will assume that <tt>python3</tt> is the command used
+    to invoke Python.&nbsp; (On Windows, it might be just <tt>python</tt>.)<br>
+    <br>
+    Create a single directory, called <tt>matrix</tt>, in which you
+    will put all your code.<br>
+    <br>
+    Download the submission script, <tt><a href="submit.py">submit.py</a>,</tt>
+    to the <tt>matrix</tt> directory.<br>
+    <br>
+    To get your work graded, <br>
+    <ul>
+      <li> download the appropriate stencil file into the <tt>matrix</tt>
+        directory, </li>
+      <li> edit it to include answers to whichever problems you choose,</li>
+      <li> make sure you can import it into Python without error,</li>
+      <li> test your solutions, and</li>
+      <li> finally submit problems from a given stencil by using the
+        following command from a console or shell or Command Prompt:</li>
+    </ul>
+    <blockquote><tt>python3 submit.py</tt> &lt;stencil filename&gt;<br>
+    </blockquote>
+    For example, to submit solutions to problems appearing in the
+    chapter <i>The Function</i>, edit <tt>The_Function.py</tt>, and
+    then use the command<br>
+    <blockquote><tt>python3 submit.py The_Function.py</tt><br>
+    </blockquote>
+    Note that these commands are executed not from within the Python
+    REPL, but within a console or shell or Command Prompt.<br>
+    <h2>More about <tt>submit</tt></h2>
+    The <tt>submit</tt> script asks for your username. This can be
+    anything you like. When you submit a correct answer, the script
+    stores a "receipt" in a subdirectory <tt>receipts</tt> of your <tt>matrix</tt>
+    directory, specifying your username, the data, and the identifier of
+    the problem you solved. <br>
+    <br>
+    To avoid having to give your username each time you run the <tt>submit</tt>
+    script, you can create a file <tt>profile.txt</tt> in your <tt>matrix</tt>
+    directory with the following line in it:
+    <blockquote><tt> USERNAME philipklein </tt> </blockquote>
+    where "philipklein" is replaced with your chosen username. Later I
+    will write about other features of the <tt>submit</tt> script. In
+    particular, we plan to have a leaderboard; you will be able to
+    request that your successful submits be reported to the leaderboard.
+    <h2>The Stencil files</h2>
+    <br>
+    More stencil files will be added as I complete them.&nbsp; Note that
+    these are still rough and should be considered beta versions.&nbsp;
+    Contact me at <a href="mailto:info@codingthematrix.com">info@codingthematrix.com</a>
+    if you have questions or bug reports. <br>
+    <br>
+    <h3>The Function</h3>
+    <a href="The_Function_problems.py"><tt>The_Function_problems.py</tt></a><br>
+    <br>
+    <a href="python_lab.py"><tt>python_lab.py</tt></a><br>
+    <br>
+    <a href="inverse_index_lab.py"><tt>inverse_index_lab.py</tt></a>
+    (includes most of the problems in Lab 0.6)<br>
+    <br>
+    <a href="dictutil.py"><tt>dictutil.py</tt></a> (Includes several of
+    the problems in Lab 0.6)<br>
+    <br>
+    <br>
+    <h3>The Field</h3>
+    <a href="The_Field_problems.py"><tt>The_Field_problems.py</tt></a> <br>
+    <br>
+    <h3>The Vector</h3>
+    <a href="The_Vector_problems.py"><tt>The_Vector_problems.py</tt></a> <br>
+    <br>
+    <a href="politics_lab.py"><tt>politics_lab.py</tt></a> <br>
+    <br>
+    <a href="vec.py"><tt>vec.py</tt></a> (implementation of the Vec
+    class) <br>
+    <br>
+    <h3>The Vector Space</h3>
+    <a href="The_Vector_Space_problems.py"><tt>The_Vector_Space_problems.py</tt></a> <br>
+    <br>
+    <h3>The Matrix</h3>
+    <a href="The_Matrix_problems.py"><tt>The_Matrix_problems.py</tt></a> <br>
+    <br>
+    <a href="mat.py"><tt>mat.py</tt></a> (implementation of the Mat
+    class) <br>
+    <br>
+    <a href="ecc_lab.py"><tt>ecc_lab.py</tt></a><br>
+    <br>
+    <a href="geometry_lab.py"><tt>geometry_lab.py</tt></a><br>
+    <h3>The Basis</h3>
+    <a href="The_Basis_problems.py"><tt>The_Basis_problems.py</tt> </a><br>
+    <br>
+    <a href="perspective_lab.py"><tt>perspective_lab.py</tt></a><br>
+    <h3>Dimension</h3>
+    <a href="Dimension_problems.py"><tt>Dimension_problems.py</tt> </a><br>
+    <br>
+    <h3>Gaussian Elimination<br>
+    </h3>
+    <a href="Gaussian_Elimination_problems.py"><tt>Gaussian_Elimination_problems.py</tt> </a><br>
+    <br>
+    <a href="secret_sharing_lab.py"><tt>secret_sharing_lab.py</tt> </a><br>
+    <br>
+    <tt><a href="factoring_lab.py">factoring_lab.py</a></tt><br>
+    <br>
+    <h3>The Inner Product</h3>
+    <p><tt><a href="The_Inner_Product_problems.py">The_Inner_Product_problems.py</a></tt><br>
+    </p>
+    <p><a href="machine_learning_lab.py"><tt>machine_learning_lab.py</tt></a><br>
+    </p>
+    <h3>Orthogonalization</h3>
+    <p><tt><a href="Orthogonalization_problems.py">Orthogonalization_problems.py</a></tt><br>
+    </p>
+    <p><br>
+    </p>
+    <h3>The Singular Value Decomposition</h3>
+    <p><tt><a href="The_SVD_problems.py">The_SVD_problems.py</a></tt></p>
+    <p><tt><a href="digits_lab.py">digits_lab.py</a></tt><br>
+    </p>
+    <p><tt><a href="eigenfaces_lab.py">eigenfaces_lab.py</a></tt></p>
+    <h3><br>
+    </h3>
+    <h3>The Eigenvector</h3>
+    <p><tt><a href="The_Eigenvector_problems.py">The_Eigenvector_problems.py</a></tt></p>
+    <a href="pagerank_lab.py"> <tt>pagerank_lab.py</tt></a>
+    <p> </p>
+    <hr>
+  </body>
+</html>
